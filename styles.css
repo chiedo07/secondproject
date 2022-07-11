@@ -1,0 +1,25 @@
+p{
+    font-size: 30px;
+}
+body{
+    border-bottom: 1px solid #bbb;
+}
+h2 {
+    padding:20px;
+}
+.description {
+ list-style:none;
+ width: 50%;
+ border-top:1px solid #bbb;
+ border-bottom: 1px solid #bbb;
+ margin:10px;
+ padding: 10px;
+ font-size:25px;
+ font-weight: 500;
+}
+li{
+    display: inline;
+    padding: 30px;
+    font-size: 30px;
+}
+
