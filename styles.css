@@ -61,7 +61,7 @@ button{
 }
 button:focus{
     outline: none;
-    background-color: black;
+    background-color:gray;
 }
 button:hover{
     background-color: darkgray;
