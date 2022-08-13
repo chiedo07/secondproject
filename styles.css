@@ -5,7 +5,10 @@ body{
     border-bottom: 1px solid #bbb;
     font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
-    margin: 0%;
+    margin: 0;
+    justify-content: center;
+    height:100vh;
+    align-items:center;
 }
 h2 {
     padding:20px;
@@ -14,23 +17,36 @@ h2 {
  background-color:burlywood;
  border-radius: 10px;
  box-shadow:0 0 10px 2px rgba(90,50,100,0.3);
-width:900px;
-overflow: hidden;
-height: 430px;
+ width:600px;
+ overflow: hidden;
 }
 .quiz-header{
 padding: 3rem;
+font-size:13px;
 }
 h2{
     padding: 1rem;
+    font-size:18px;
+    font-weight: bolder;
 }
-li{
+ul li{
     display: inline;
     padding: 30px;
-    font-size: 30px;
+    font-size: 15px;
+    font-weight: 90%;
+    padding:35px;
+    cursor: pointer;
+    padding-left:30px;
+    margin-top: 30px;
 }
 ul li label{
     cursor: pointer;
+    padding-left:5px;
+    padding: 3px;
+    padding-top:29px;
+    font-size:14px;
+    font-weight: bolder;
+    
 }
 button{
     width: 100%;
@@ -38,12 +54,105 @@ button{
     display: block;
     border: none;
     cursor: pointer;
-    margin-bottom: 0px;
+    margin-top:73px;
     background-color: darkgray;
+    position: relative;
+    font-size:1.1rem;
 }
 button:focus{
     outline: none;
+    background-color: black;
 }
 button:hover{
-    background-color: darkcyan;
+    background-color: darkgray;
 }
+@media (min-width:280px) and (max-width:360px){
+    .quiz-container {
+        background-color:burlywood;
+        border-radius: 10px;
+        box-shadow:0 0 10px 2px rgba(90,50,100,0.3);
+        width:600px;
+        overflow: hidden;
+        height: 500px;
+       }
+       .quiz-header{
+       padding: 3rem;
+       font-size:13px;
+       }
+       h2{
+           padding: 1rem;
+           font-size:12px;
+           font-weight: bolder;
+           margin-top: 1px;
+           padding-top:5px;
+       }
+       ul li{
+           display: inline;
+           padding: 10px;
+           font-size: 15px;
+           font-weight: bolder;
+           padding:5px;
+           cursor: pointer;
+           padding-left:1px;
+           margin-top: 30px;
+           padding-top:8px;
+       }
+       ul li label{
+           cursor: pointer;
+           padding-left:5px;
+           padding: 3px;
+           padding-top:19px;
+           margin-top: 15px;
+           font-size:8px;
+           padding-left:9px;
+           font-weight:bolder;
+           
+       }   
+       button{
+        width: 100%;
+        padding: 1.3rem;
+        display: block;
+        border: none;
+        cursor: pointer;
+        margin-top:54px;
+        background-color: darkgray;
+        position: relative;
+        font-size:1.1rem;
+    }
+}
+@media (min-width:360px) and (max-width:390px){
+    ul li{
+        display: inline;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bolder;
+        padding:5px;
+        cursor: pointer;
+        padding-left:1px;
+        margin-top: 30px;
+        padding-top:8px;
+    }
+    ul li label{
+        cursor: pointer;
+        padding-left:5px;
+        padding: 3px;
+        padding-top:19px;
+        margin-top: 15px;
+        font-size:8px;
+        padding-left:9px;
+        font-weight:bolder;
+        
+    }   
+    button{
+        width: 100%;
+        padding: 1.3rem;
+        display: block;
+        border: none;
+        cursor: pointer;
+        margin-top:69px;
+        background-color: darkgray;
+        position: relative;
+        font-size:1.1rem;
+    }
+}
+
