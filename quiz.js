@@ -66,7 +66,7 @@ function getSeleceted(){
   return answer
 }
  
- function setNextQuestion(){
+function setNextQuestion(){
   const answer = getSeleceted()
   if(answer){
     if( answer === quizQuestions[currentQuiz].correctAnswer) {
@@ -75,12 +75,12 @@ function getSeleceted(){
     currentQuiz++
      if(currentQuiz < quizQuestions.length){
       showQuiz()
-     }
-     else{
+    }
+    else{
       quiz.innerHTML = `
       <p style="text-align:center;margin-top:150px;margin-left:50px;text-align:center;justify-conent:center;font-size:25px;font-weight:bolder;"> you scored ${score}/${quizQuestions.length} </p>
       <button style="padding-bottom:20px; margin-top:262px;"onclick="location.reload()">reload</button>`
-     }
+    }
 
   }
 }
