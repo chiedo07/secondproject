@@ -1,4 +1,4 @@
-# secondproject
+# JAVASCRIPT QUIZ GAME
 This is a simple javascript quiz game designed for users to test their knowledge project management methodologies
 in which users have to choose from four options and then recieve a score at the end of the game. this game can be taken
 as much as possible.
