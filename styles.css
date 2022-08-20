@@ -81,21 +81,25 @@ footer{
     }
 }
 @media(min-width:768px){
-    #foot{
-        width:760px;
+  #foot{
         margin-bottom: 600px;
         margin-top: 45px;
         bottom: 400px;
         text-align: center;
-        padding-top: 300px;
+        padding-top: 200px;
+        padding-bottom: 1500px;
         font-size: 20px;
-        left: 4px;
+        left: 104px;
         position:absolute;
         top: 90px;
-    }
+        width: auto;
+        height: fit-content;
+        
+  }
     span{
       font-size:20px;
     }
+
 }
 
 @media(min-width:1024){
@@ -115,7 +119,9 @@ footer{
 }
 @media(min-width:912px){
   #foot{
-    padding-top:700px;
+    top: 1070px;
+    padding-top:100px;
+    padding-bottom:200px;
     font-size: 30px;
   }
   span{
